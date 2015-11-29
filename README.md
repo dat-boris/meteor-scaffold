@@ -1,17 +1,14 @@
-# Pushify
+# Your pacakge name here
 
-Simple push notification subscription service
+_Description goes here_
 
-![XKCD - compiling](https://imgs.xkcd.com/comics/compiling.png)
+# Basic layout
 
-Imagine getting push notifiaction when the compilation is done!
+Based on best practice by:
 
-![Mockup 1](/mobile.png)
-
-# Project description
-
-![Mockup 1](/mockup.png)
-
+* https://github.com/appjitsu/meteor-best-practices/ - **Everything should be a package**
+* Updated with using *FlowRouter* as well as *ReactJS* templates
+* Improve testing framework to use velocity
 
 # Testing
 
@@ -19,6 +16,6 @@ We use Velocity + Jasmine for testing.  To run the test, use:
 
 	# for setting up velocity too
 	# npm install velocity-cli -g
-	velocity test-package packages/pushify
+	velocity test-package packages/app
 
 See https://meteor-testing.readme.io/v1.0/docs/getting-started-with-jasmine for more information, and example at https://github.com/AdamBrodzinski/react-meteor-tests

@@ -1,8 +1,8 @@
 Package.describe({
-  name: 'sketchytechky:pushify',
+  name: 'sketchytechky:app',
   version: '0.0.1',
   summary: 'A simple way to create your own push notification',
-  git: 'https://github.com/sketchytechky/pushify',
+  git: 'https://github.com/sketchytechky/app',
   documentation: 'README.md'
 });
 
@@ -15,10 +15,10 @@ Package.onUse(function(api) {
     'ecmascript',
     ]);
   api.addFiles([
-    'pushify.js',
+    'app.js',
     'router.js',
     'layouts/home.jsx',
-    //'pushify.html'
+    //'app.html'
     ], ['client','server']
     );
 
@@ -30,7 +30,7 @@ Package.onTest(function(api) {
   api.use(['react', 
     'sanjo:jasmine@0.20.2',
     'meteorhacks:fast-render@2.10.0',  // workaround bug in https://github.com/kadirahq/fast-render/issues/132
-    'sketchytechky:pushify'
+    'sketchytechky:app'
     ]);
   
   api.addFiles('tests/client/component-spec.js', ['client']);

@@ -21,9 +21,9 @@ insecure                # Allow all DB writes from clients (for prototyping)
 tinytest
 
 # main entrypoint
-sketchytechky:pushify
+sketchytechky:app
 kadira:flow-router
 react
 sanjo:jasmine
-velocity:html-reporter
-velocity:console-reporter
+#velocity:html-reporter
+#velocity:console-reporter
